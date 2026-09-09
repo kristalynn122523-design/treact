@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+.logo {
+  width: 100px;
+}
+
+.nav__links {
+  margin: 0 auto;
+  text-align: right;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+li {
+  list-style-type: none;
+}
