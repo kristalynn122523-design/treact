@@ -6,12 +6,8 @@
 }
 
 .nav__links {
-  margin: 0 auto;
-  text-align: right;
-  align-items: center;
   display: flex;
   justify-content: space-between;
-  
 }
 
 li {
