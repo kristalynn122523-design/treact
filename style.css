@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
 }
 
 body {
@@ -381,6 +383,7 @@ section {
 .feature__img--wrapper {
   display: flex;
   padding: 20px;
+  border: 1px solid #e5e7eb;
   border-radius: 500px;
 }
 
@@ -554,6 +557,10 @@ section {
 
 .value:nth-child(1) .value__img--wrapper {
   background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+  background-color: #feb2b2;
 }
 
 .value__img--wrapper {
