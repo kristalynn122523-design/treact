@@ -296,6 +296,18 @@ img {
   border: none;
 }
 
+.menu--open .menu {
+  visibility: visible;
+  opacity: 1;
+  transform: tranlateX(0);
+}
+
+.btn__menu--close {
+  position: fixed;
+  top: 24px;
+  right: 18px;
+}
+
 header {
   position: relative;
 }
@@ -570,6 +582,16 @@ section {
   align-items: center;
   width: 36px;
   height: 36px;
+}
+
+.dollar__sign {
+  width: 80%;
+  height: auto;
+}
+
+.briefcase {
+  width: 80%;
+  height: auto;
 }
 
 .value__img {
@@ -1185,7 +1207,7 @@ footer {
 
   .quality__description,
   .quality__img--wrapper {
-    width: 100%;
+    max-width: 512px;
   }
 
   .quality__description {
@@ -1211,6 +1233,13 @@ footer {
     height: 5rem;
     width: 5rem;
     bottom: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .steps__img--wrapper {
+    width: 100%;
+    max-width: 512px;
   }
 }
 
